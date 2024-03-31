@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facedetectionreact-dev-2c6d6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::761835676583:role/amplify-facedetectionreact-dev-2c6d6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::761835676583:role/amplify-facedetectionreact-dev-2c6d6-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-facedetectionreact-dev-2c6d6-deployment",
+      "UnauthRoleName": "amplify-facedetectionreact-dev-2c6d6-unauthRole",
+      "StackName": "amplify-facedetectionreact-dev-2c6d6",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:761835676583:stack/amplify-facedetectionreact-dev-2c6d6/e0c38670-ef70-11ee-aa5a-02b733e45355",
+      "AmplifyAppId": "d3uy04ot0bchb5"
+    }
+  }
+}
