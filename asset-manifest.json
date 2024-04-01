@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/face-detection-react/static/css/main.6170c43b.css",
-    "main.js": "/face-detection-react/static/js/main.196ca526.js",
+    "main.js": "/face-detection-react/static/js/main.03c79edb.js",
     "index.html": "/face-detection-react/index.html",
     "main.6170c43b.css.map": "/face-detection-react/static/css/main.6170c43b.css.map",
-    "main.196ca526.js.map": "/face-detection-react/static/js/main.196ca526.js.map"
+    "main.03c79edb.js.map": "/face-detection-react/static/js/main.03c79edb.js.map"
   },
   "entrypoints": [
     "static/css/main.6170c43b.css",
-    "static/js/main.196ca526.js"
+    "static/js/main.03c79edb.js"
   ]
 }
