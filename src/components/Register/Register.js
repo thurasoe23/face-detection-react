@@ -41,6 +41,12 @@ class Register extends React.Component {
       })
   }
 
+  handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      this.onSubmitSignIn();
+    }
+  }
+
   render() {
     return (
       <div>
@@ -80,6 +86,7 @@ class Register extends React.Component {
                   name="password"
                   id="password"
                   onChange={this.onPasswordChange}
+                  onKeyDown={this.handleKeyPress}
                 />
               </div>
             </fieldset>
