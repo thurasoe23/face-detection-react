@@ -23,7 +23,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/register', {
+    fetch('http://13.239.114.235:3000/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -43,6 +43,10 @@ class Register extends React.Component {
 
   render() {
     return (
+      <div>
+        <div>
+          <h2 className='f1'>FaceRecognition System</h2>
+        </div>
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
@@ -90,6 +94,7 @@ class Register extends React.Component {
           </div>
         </main>
       </article>
+      </div>
     );
   }
 }

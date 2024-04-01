@@ -18,7 +18,7 @@ class Signin extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/signin', {
+    fetch('http://13.239.114.235:3000/signin', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -38,6 +38,10 @@ class Signin extends React.Component {
   render() {
     const { onRouteChange } = this.props;
     return (
+      <div>
+        <div>
+          <h2 className='f1'>FaceRecognition System</h2>
+        </div>
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
@@ -78,6 +82,7 @@ class Signin extends React.Component {
           </div>
         </main>
       </article>
+      </div>
     );
   }
 }
