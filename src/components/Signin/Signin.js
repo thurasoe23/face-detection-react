@@ -45,7 +45,7 @@ class Signin extends React.Component {
     return (
       <div>
         <div>
-          <h2 className='f1'>FaceRecognition System</h2>
+          <h2 className='f1'>Face Detector</h2>
         </div>
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
